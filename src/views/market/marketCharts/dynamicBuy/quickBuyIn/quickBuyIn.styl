@@ -1,0 +1,240 @@
+.quickBuyUi
+  position absolute
+  top -40px
+  left 0
+  width 100%
+  height 75px
+  z-index 300
+  background #fff
+  .stock-number
+    display flex
+    .quickTrades
+      height 29px
+      border-radius 3px
+      display block
+      text-align center
+      line-height 32px
+      color #ffffff
+      margin 7px 0px 7px 14px
+      font-size 13px
+      &.hanldNum
+        width 30%
+        flex 0 0 30%
+      &.stopLoopAmount
+        width 40%
+        flex 0 0 40%
+    .openOff
+      width 20%
+      flex 0 0 20%
+  .cost
+    font-size 13px
+    display flex
+    clear both
+    span
+      flex 0 0 33.333%
+      width 33.333%
+      text-align center
+      color #4E4E4E
+.buyMask
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height 100%
+  background rgba(0, 0, 0, 0.4)
+  z-index 298
+.buyinfo
+  position absolute
+  width 100%
+  background #fff
+  z-index 299
+  top -200px
+  .picker-item
+    font-size 14px
+.picker-center-highlight:after
+  height 2px
+.move-enter-active, .move-leave-active
+  transition all 0.1s ease-out
+.move-enter
+  transform translateY(40px)
+  opacity 0
+.move-leave-active
+  transform translateY(40px)
+  opacity 0
+.model_amount
+  margin-top 7px
+  line-height 30px
+  flex 0 0 15%
+  width 15%
+  margin-left 13px
+  overflow hidden
+  .wrap
+    height 29px
+    .chk_2 + label
+      display inline-block
+      text-align center
+      position relative
+      color #FFF
+      font-size 12px
+      width 100%
+      height 100%
+      border-radius 3px
+      &.nochecks
+        background #f5a623
+#checkbox_b1
+  display none
+.whiteCon
+  background #fafafa
+  margin-bottom 10px
+  .futures_name
+    display flex
+    display -webkit-box
+    display -moz-box
+    display -ms-flexbox
+    display -webkit-flex
+    padding 0 14px
+    padding-top 5px
+    height 50px
+    line-height 50px
+    position relative
+    div
+      flex 0 0 50%
+      box-flex 0 0 50%
+      -webkit-box-flex 0 0 50%
+      -moz-box-flex 0 0 50%
+      -webkit-flex 0 0 50%
+      width 50%
+      margin-top 9px
+      color #4A4A4A
+      &.f_name
+        font-size 12px
+        text-align left
+        margin-top 10px
+        box-sizing border-box
+        padding-left 5px
+        // margin-left 20px
+        span
+          font-size 16px
+      &.f_timer
+        font-size 12px
+        line-height 24px
+        text-align right
+        .position
+          // height 45px
+          // line-height 45px
+          align-items center
+          justify-content center
+          -webkit-justify-content center
+          -moz-justify-content center
+          -ms-justify-content center
+          -o-justify-content center
+          flex-direction column
+          -webkit-flex-direction column
+          -moz-flex-direction column
+          -ms-flex-direction column
+          -o-flex-direction column
+          i
+            display inline-block
+            width 35px
+            height 35px
+            background-color #6989ff
+          span
+            display inline-block
+            background-color #449780
+            width 65px
+            text-align center
+            border-radius 50px
+            font-size 14px
+            .svg-container
+              color #fff
+        p.closeTime
+          text-align right
+          padding-right 10px
+          color #e4393c
+          font-size 16px
+        p
+          .getTime
+            color #e4393c
+  .money_number
+    display flex
+    display -webkit-box
+    display -moz-box
+    display -ms-flexbox
+    display -webkit-flex
+    position relative
+    z-index 300
+    height 45px
+    div.moneys
+      flex 0 0 50%
+      box-flex 0 0 50%
+      -webkit-box-flex 0 0 50%
+      -moz-box-flex 0 0 50%
+      -webkit-flex 0 0 50%
+      width 50%
+      &.money_left
+        h2
+          font-size 24px
+          float left
+          font-weight normal
+          padding-top 8px
+          margin 0 15px 0px 14px
+        p
+          float left
+          margin-top 8px
+        span
+          display block
+          font-size 12px
+      &.upDropPrice
+        h2
+          color #EA3826
+        span
+          color #EA3826
+      &.upDropSpeed
+        h2
+          color #7ED321
+        span
+          color #7ED321
+      &.money_right
+        text-align right
+        display flex
+        display -webkit-box
+        display -moz-box
+        display -ms-flexbox
+        display -webkit-flex
+        .sell_left
+          width 62%
+          flex 0 0 1
+          box-flex 0 0 1
+          -webkit-box-flex 0 0 1
+          -moz-box-flex 0 0 1
+          -webkit-flex 0 0 1
+          .buys, .sells
+            width 100%
+            height 8px
+            display block
+            margin-top 8px
+            margin-bottom 10px
+            i
+              display block
+              float right
+          .sells
+            i
+              height 100%
+              background #EA3826
+          .buys
+            i
+              height 100%
+              background #7ED321
+        .buy_right
+          width 38%
+          flex 0 0 1
+          box-flex 0 0 1
+          -webkit-box-flex 0 0 1
+          -moz-box-flex 0 0 1
+          -webkit-flex 0 0 1
+          margin-top 6px
+          span
+            font-size 12px
+            text-align center
+            color #4A4A4A
+            display block

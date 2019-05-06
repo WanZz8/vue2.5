@@ -1,0 +1,96 @@
+.setting_view
+  //background-color #f7f7f7
+  padding-bottom 1.2rem
+  -webkit-box-sizing border-box
+  box-sizing border-box
+  .part1
+    width 100%
+    padding-left 20px
+    padding-right 20px
+    box-sizing border-box
+    //margin-top 15px
+    .mint-cell
+      display inline-block
+      width 100%
+      height 55px
+      .mint-cell-wrapper
+        height 55px
+        line-height 55px
+        background-image none
+        border-bottom  0.2px solid #eaeaea
+      & .mint-cell-allow-right::after
+        width 10px
+        height 10px
+        border: solid 0.053333rem #4A4A4A
+        border-bottom-width: 0;
+        border-left-width: 0;
+      & .mint-cell-text
+        font-family PingFangSC-Regular
+        font-size 16px
+        color #4A4A4A
+    .mint-cell:last-child
+      height 58px
+      background-image none
+  .part2
+    width 100%
+    padding-left 20px
+    padding-right 20px
+    margin-top 15px
+    .settips
+      width 100%
+      font-family PingFang-SC-Medium
+      font-size 14px
+      color #a2a1a1
+      padding-left 5px
+      b
+        color #4b91e2
+        display inline-block
+  .part3
+    margin-top 65px
+    position relative
+    padding-left 15px
+    padding-right 15px
+    .set_ss
+      width 100%
+      height 100%
+      line-height 45px
+      display block
+      border-radius 25px
+      font-size 15px
+      background-color #6B89FE
+      text-align center
+      color #fff
+      outline 0
+      border none
+      touch-action: none
+      position: relative
+      overflow: hidden
+    .set_ss:after
+      content: ""
+      display: block
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      pointer-events: none
+      background-image: radial-gradient(circle, #767676 10%, transparent 10.01%)
+      background-repeat: no-repeat
+      background-position: 50%
+      transform: scale(10, 10)
+      opacity: 0
+      transition: transform .3s, opacity .5s;
+      height 45px
+      line-height 45px
+      padding-right 15px
+    .set_ss:active:after
+      transform: scale(0, 0)
+      opacity: .3
+      transition: 0s
+    .tips
+      width 100%
+      margin-top 15px
+      padding-left 10px
+      font-family PingFang-SC-Medium
+      font-size 12px
+      color #C1BFC2

@@ -1,0 +1,306 @@
+.withdraw
+  width 100%
+  position relative
+  background-color #F9F9F9
+  .part1
+    width 100%
+    height 139px
+    position relative
+    .wit_top
+      width 100%
+      height 100%
+      box-sizing border-box
+      padding 30px 18px 20px 18px
+      .wit_tp_img
+        width 100%
+        height 100%
+        background-color #D63B43
+        border-radius 5px
+        .icon_con
+          float left
+          width 100px
+          height 100%
+          padding 15px 18px 10px 20px
+          box-sizing border-box
+          .bankIcon
+            width 60px
+            height 60px
+            display inline-block
+            box-sizing border-box
+            background-color #fff
+            border 0.06rem solid #fff
+            border-radius 100%
+        .bk_name
+          float left
+          padding-top 20px
+          .bk_name_p1
+            height 30px
+            line-height 30px
+            span
+              font-family PingFang-SC-Bold
+              font-size 16px
+              color #FFFFFF
+          .bk_name_p2
+            height 30px
+            line-height 30px
+            font-family PingFang-SC-Medium
+            font-size 14px
+            color #FFFFFF
+        /* 绑定银行卡的颜色 */
+      .wit_tp_img.ICBC // 工商
+        background -moz-linear-gradient(-3deg, #FF0404 0%, #FF3F4E 100%)
+        background -webkit-linear-gradient(-3deg, #FF0404 0%, #FF3F4E 100%)
+        background -ms-linear-gradient(-3deg, #FF0404 0%, #FF3F4E 100%)
+        background linear-gradient(-3deg, #FF0404 0%, #FF3F4E 100%)
+      .wit_tp_img.ABC // 农业银行
+        background -moz-linear-gradient(0deg, #019779 0%, #449780 100%)
+        background -webkit-linear-gradient(0deg, #019779 0%, #449780 100%)
+        background -ms-linear-gradient(0deg, #019779 0%, #449780 100%)
+        background linear-gradient(0deg, #019779 0%, #449780 100%)
+      .wit_tp_img.BOC // 中国银行
+        background -moz-linear-gradient(0deg, #D9241B 0%, #d95249 100%)
+        background -webkit-linear-gradient(0deg, #D9241B 0%, #d95249 100%)
+        background -ms-linear-gradient(0deg, #D9241B 0%, #d95249 100%)
+        background linear-gradient(0deg, #D9241B 0%, #d95249 100%)
+      .wit_tp_img.CCB // 中国建设银行
+        background -moz-linear-gradient(0deg, #0E3B96 0%, #153496 100%)
+        background -webkit-linear-gradient(0deg, #0E3B96 0%, #153496 100%)
+        background -ms-linear-gradient(0deg, #0E3B96 0%, #153496 100%)
+        background linear-gradient(0deg, #0E3B96 0%, #153496 100%)
+      .wit_tp_img.CMB // 招商银行
+        background -moz-linear-gradient(0deg, #CA0304 0%, #CA2728 100%)
+        background -webkit-linear-gradient(0deg, #CA0304 0%, #CA2728 100%)
+        background -ms-linear-gradient(0deg, #CA0304 0%, #CA2728 100%)
+        background linear-gradient(0deg, #CA0304 0%, #CA2728 100%)
+      .wit_tp_img.COMM // 交通银行
+        background -moz-linear-gradient(0deg, #183883 0%, #243983 100%)
+        background -webkit-linear-gradient(0deg, #183883 0%, #243983 100%)
+        background -ms-linear-gradient(0deg, #183883 0%, #243983 100%)
+        background linear-gradient(0deg, #183883 0%, #243983 100%)
+      .wit_tp_img.CEB // 中国光大银行
+        background -moz-linear-gradient(0deg, #E4A509 0%, #E4B135 100%)
+        background -webkit-linear-gradient(0deg, #E4A509 0%, #E4B135 100%)
+        background -ms-linear-gradient(0deg, #E4A509 0%, #E4B135 100%)
+        background linear-gradient(0deg, #E4A509 0%, #E4B135 100%)
+      .wit_tp_img.CMBC // 中国民生银行
+        background -moz-linear-gradient(0deg, #0B9C57 0%, #0cda78 100%)
+        background -webkit-linear-gradient(0deg, #0B9C57 0%, #0cda78 100%)
+        background -ms-linear-gradient(0deg, #0B9C57 0%, #0cda78 100%)
+        background linear-gradient(0deg, #0B9C57 0%, #0cda78 100%)
+      .wit_tp_img.CIB // 兴业银行
+        background -moz-linear-gradient(0deg, #143A85 0%, #284B85 100%)
+        background -webkit-linear-gradient(0deg, #143A85 0%, #284B85 100%)
+        background -ms-linear-gradient(0deg, #143A85 0%, #284B85 100%)
+        background linear-gradient(0deg, #143A85 0%, #284B85 100%)
+      .wit_tp_img.SPABANK // 平安银行
+        background -moz-linear-gradient(0deg, #D8681F 0%, #D87E37 100%)
+        background -webkit-linear-gradient(0deg, #D8681F 0%, #D87E37 100%)
+        background -ms-linear-gradient(0deg, #D8681F 0%, #D87E37 100%)
+        background linear-gradient(0deg, #D8681F 0%, #D87E37 100%)
+      .wit_tp_img.CITIC // 中信银行
+        background -moz-linear-gradient(0deg, #E00723 0%, #E04053 100%)
+        background -webkit-linear-gradient(0deg, #E00723 0%, #E04053 100%)
+        background -ms-linear-gradient(0deg, #E00723 0%, #E04053 100%)
+        background linear-gradient(0deg, #E00723 0%, #E04053 100%)
+      .wit_tp_img.HXB // 华夏银行
+        background -moz-linear-gradient(0deg, #D70C17 0%, #D7353F 100%)
+        background -webkit-linear-gradient(0deg, #D70C17 0%, #D7353F 100%)
+        background -ms-linear-gradient(0deg, #D70C17 0%, #D7353F 100%)
+        background linear-gradient(0deg, #D70C17 0%, #D7353F 100%)
+      .wit_tp_img.SPDB // 广东发展银行
+        background -moz-linear-gradient(0deg, #063C7F 2%, #264E7F 98%)
+        background -webkit-linear-gradient(0deg, #063C7F 2%, #264E7F 98%)
+        background -ms-linear-gradient(0deg, #063C7F 2%, #264E7F 98%)
+        background linear-gradient(0deg, #063C7F 2%, #264E7F 98%)
+      .wit_tp_img.GDB // 上海浦东发展银行
+        background -moz-linear-gradient(0deg, #063C7F 2%, #082767 98%)
+        background -webkit-linear-gradient(0deg, #063C7F 2%, #082767 98%)
+        background -ms-linear-gradient(0deg, #063C7F 2%, #082767 98%)
+        background linear-gradient(0deg, #063C7F 2%, #082767 98%)
+  .noBank
+    width 100%
+    height 139px
+    position relative
+    .noBank_top
+      width 100%
+      height 100%
+      box-sizing border-box
+      padding 30px 18px 20px 18px
+      .noBank_tp_img
+        width 100%
+        height 100%
+        border-radius 5px
+        background-color #d7d7d7
+        .icon_con
+          height 92px
+          line-height 92px
+          text-align center
+          color #FFF
+          font-size 20px
+          p
+            color #FFF
+  .part2
+    width 100%
+    // height 139px
+    position relative
+    .item_wrap
+      box-sizing border-box
+      padding-left 12px
+      padding-right 12px
+      .item_styl
+        width 100%
+        height 100%
+        box-sizing border-box
+        background-color #fff
+        padding 0 15px
+        .item_p1
+          height 36px
+          line-height 36px
+        .item_p2
+          height 44px
+          font-family PingFang-SC-Medium
+          font-size 24px
+          color #4A4A4A
+          border-bottom 1px solid #f8f8f8
+          position relative
+          .mint-cell-wrapper
+            background-image none
+            height 35px
+            padding 0
+            & input::placeholder
+              font-family PingFang-SC-Medium
+              font-size 14px
+          input
+            height 44px
+            line-height 44px
+            border-bottom 1px solid #f8f8f8
+            padding-left 26px
+            padding-right 10px
+            outline none
+            font-size 20px
+            color #666666
+            background #fff
+          i
+            position absolute
+            top 5px
+            left 0
+            color #666666
+            font-size 24px
+        .item_p3
+          font-family PingFang-SC-Medium
+          font-size 14px
+          color #9B9B9B
+          line-height 40px
+      .item_styl::before
+        display table
+        content ''
+    .wrap2
+      width 100%
+      padding-left 12px
+      padding-right 12px
+      box-sizing border-box
+      margin-top 15px
+      .w2_sty2
+        width 100%
+        height 45px
+        line-height 45px
+        background-color #fff
+        padding-left 15px
+        box-sizing border-box
+        .with_ipt
+          outline none
+          display inline-block
+          background #fff
+          height 44px
+          letter-spacing 2px
+          padding-left 10px
+  .part3
+    width 100%
+    // height 139px
+    margin-top 15px
+    position relative
+    .p3_wrap
+      box-sizing border-box
+      padding-left 12px
+      padding-right 12px
+      .p3_title
+        width 100%
+        font-family PingFang-SC-Medium
+        font-size 14px
+        color #9B9B9B
+        line-height 30px
+        height 30px
+      .p3_content
+        width 100%
+        li
+          width 100%
+          padding-left 20px
+          margin-top 5px
+          font-family PingFang-SC-Medium
+          font-size 14px
+          color #9B9B9B
+          position relative
+          line-heigth 25px
+          box-sizing border-box
+          .round
+            width 25px
+            height 25px
+            position absolute
+            font-size 45px
+            line-heigth 25px
+            text-align center
+            color #9B9B9B
+            top -35px
+            left -2px
+            text-decoration none
+          .sp2
+            line-height 20px
+          .sp3
+            font-family PingFang-SC-Medium
+            font-size 14px
+            color #000200
+            line-height 20px
+            color #D0031B
+  .part4
+    padding-left 15px
+    padding-right 15px
+    height 45px
+    margin-top 25px
+    margin-bottom 150px
+    .withdraw_ss
+      width 100%
+      height 100%
+      line-height 45px
+      display block
+      border-radius 25px
+      font-size 15px
+      background-color #6B89FE
+      text-align center
+      color #fff
+      outline 0
+      border none
+      touch-action none
+      position relative
+      overflow hidden
+    .withdraw_ss:after
+      content ''
+      display block
+      position absolute
+      width 100%
+      height 100%
+      top 0
+      left 0
+      pointer-events none
+      background-image radial-gradient(circle, #767676 10%, transparent 10.01%)
+      background-repeat no-repeat
+      background-position 50%
+      transform scale(10, 10)
+      opacity 0
+      transition transform 0.3s, opacity 0.5s
+      height 45px
+      line-height 45px
+      padding-right 15px
+    .withdraw_ss:active:after
+      transform scale(0, 0)
+      opacity 0.3
+      transition 0s

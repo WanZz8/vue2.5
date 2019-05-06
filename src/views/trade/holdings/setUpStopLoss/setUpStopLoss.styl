@@ -1,0 +1,92 @@
+.popup_container
+  padding 18px 16px 55px 16px
+  title
+    font-size 14px
+    span.title_name
+      color #4a4a4a
+    span.title_range
+      color #9B9B9B
+  .reduce, .add
+    color #ffffff
+    font-size 14px
+    border none
+    outline none
+  .reduce
+    background #7ED321
+  .add
+    background #EA3826
+  .num
+    width 108px
+    height 30px
+    border solid 1px #979797
+    text-align center
+    outline none
+    font-size 14px
+    color #6989ff
+  .profit, .loss
+    margin 22px 0
+    width 100%
+  .profit .item_num, .loss .item_num
+    width 100%
+    height 30px
+    .profit_number_big
+      float left
+      position relative
+      height 30px
+      padding-left 10px
+    .rt_lossPrice
+      float right
+      height 30px
+      padding-right 35px
+  .profit .profit_operation, .loss .loss_operation
+    width 100%
+    position relative
+    box-sizing border-box
+    display flex
+    .profit_number_big, .loss_number_big
+      width 100%
+      color #919090
+      font-size 14px
+      line-height 36px
+    .profit_operation, .loss_operation
+      width 60%
+  & .mt-range
+      width 75%
+      margin-left 15px
+      margin-right 15px
+      margin-top 2px
+  .explanation
+    font-size 12px
+    color #9B9B9B
+  .setUp_btn
+    display flex
+    margin 9px 0
+    span
+      flex 0 0 2%
+      width 2%
+    button
+      flex 0 0 48%
+      width 48%
+      height 35px
+      box-shadow none
+      background #fff
+      font-size 15px
+      outline none
+    .mint-button--primary
+      background-color #6B89FE
+  .popup_order_info
+    margin-bottom 10px
+    border-bottom 1px solid #eee
+    b
+      font-size 14px
+      color #666
+      line-height 30px
+    ul
+      display flex
+      flex-wrap wrap
+      li
+        flex 0 0 50%
+        width 50%
+        margin 5px 0
+.setUpStopLoss
+  z-index 2000

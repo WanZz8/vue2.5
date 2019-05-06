@@ -1,0 +1,85 @@
+.feedback_view
+  padding-bottom 1.2rem
+  -webkit-box-sizing border-box
+  box-sizing border-box
+  padding-left 20px
+  padding-right 20px
+  background-color #f7f7f7
+  .part1
+    width 100%
+    margin-top 15px
+    background-color #FFF
+    position relative
+    .pt1_d1
+      width 100%
+      height 100%
+      .text-area
+        width 100%
+        height 100%
+        outline 0
+        box-sizing border-box
+        padding 5px 10px
+        color #2e2e2e
+        font-size 15px
+    .pt1_d2
+      width 100%
+      text-align right
+      padding-right 10px
+      box-sizing border-box
+      color #9B9B9B
+      font-size 15px
+  .part2
+    width 100%
+    position relative
+    margin-top 15px
+    height 45px
+    .pt2_input
+      display inline-block
+      width 100%
+      height 45px
+      line-height 45px
+      outline 0
+      box-sizing border-box
+      padding 5px 10px
+      font-size 15px
+      color #2e2e2e
+  .part3
+    margin-top 45px
+    position relative
+    .real_ss
+      width 100%
+      height 100%
+      line-height 45px
+      display block
+      border-radius 25px
+      font-size 15px
+      background-color #6B89FE
+      text-align center
+      color #fff
+      outline 0
+      border none
+      touch-action: none
+      position: relative
+      overflow: hidden
+    .real_ss:after
+      content ""
+      display block
+      position absolute
+      width 100%
+      height 100%
+      top 0
+      left 0
+      pointer-events none
+      background-image radial-gradient(circle, #767676 10%, transparent 10.01%)
+      background-repeat no-repeat
+      background-position 50%
+      transform scale(10, 10)
+      opacity 0
+      transition transform .3s, opacity .5s;
+      height 45px
+      line-height 45px
+      padding-right 15px
+    .real_ss:active:after
+      transform scale(0, 0)
+      opacity .3
+      transition 0s

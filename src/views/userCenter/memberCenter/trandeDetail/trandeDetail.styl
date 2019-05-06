@@ -1,0 +1,177 @@
+.trandeDetail_view
+  .trandeDetail_select
+    background #F2F2F2
+    display flex
+    position relative
+    z-index 1001
+    .select
+      flex 0 0 20%
+      line-height 49px
+      text-align center
+      color #666
+      font-size 12px
+      .select_ouline_status
+        .open
+          transform rotate(180deg)
+        p
+          display inline-block
+        i
+          width 10px
+          height 10px
+          display inline-block
+          fill #999
+          transition all 0.3s ease
+      &.select_timer, &.select_type
+        width 30%
+        flex 0 0 30%
+    .status_list
+      min-height 100px
+      background #fff
+      position absolute
+      left 0
+      width 100%
+      text-indent 20px
+      top 49px
+      z-index 9
+      li
+        text-align left
+        border-bottom 1px solid #f8f8f8
+        &.active
+          position relative
+          &::before
+            content ''
+            position absolute
+            width 0.25rem
+            height 0.25rem
+            right 25px
+            top 50%
+            margin-top -5px
+            border-radius 500px
+.mask_cz
+  position fixed
+  top 50px
+  height 100%
+  background rgba(0, 0, 0, 0.6)
+  width 100%
+  z-index 1000
+.fade-enter-active, .fade-leave-active
+  transition all 0.2s ease-out
+.fade-enter, .fade-leave-to
+  opacity 0
+.move-enter-active, .move-leave-active
+  transition all 0.2s ease-out
+.move-enter
+  transform translateY(30px)
+  opacity 0
+.move-leave-active
+  transform translateY(30px)
+  opacity 0
+.detail_content
+  height 520px
+  margin-top 10px
+  .main-body
+    overflow scroll
+    position relative
+    .entrust_list
+      width 330px
+      margin 5px auto 13px
+      position relative
+      box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.06), 0 -2px 4px 0 rgba(0, 0, 0, 0.07)
+      padding 0px 9px
+      .entrust_title
+        height 40px
+        overflow hidden
+        border-bottom 1px solid #eee
+        h1
+          font-size 14px
+          color #4a4a4a
+          line-height 40px
+          float left
+          font-weight normal
+        span
+          line-height 40px
+          font-size 12px
+          float right
+        p
+          font-size 12px
+          color #4a4a4a
+          line-height 35px
+          float left
+        .for_right
+          width 122px
+          height 22px
+          display block
+          float right
+          color #ffffff
+          line-height 22px
+          text-align center
+          font-size 14px
+          position relative
+          margin-top 6px
+          border-radius 20px
+          &.success
+            background-position 100% 0px
+          &.fall
+            background-position 100% -23px
+    .foot_text
+      width 100%
+      text-align center
+      font-size 14px
+      margin-top 5px
+      height 35px
+      line-height 35px
+      margin-bottom 15px
+    .container_list
+      margin-top 10px
+      .container_left
+        display flex
+        flex-wrap wrap
+        span
+          flex 0 0 60%
+          width 60%
+          display inline-block
+          font-family PingFang-SC-Medium
+          font-size 0.32rem
+          line-height 26px
+          color #666
+          &:nth-child(even)
+            flex 0 0 40%
+            width 40%
+          &:nth-last-child(1)
+            margin-bottom 10px
+  .top_title
+    height 35px
+    position relative
+    text-align center
+    line-height 35px
+    .icon_spinner
+      position absolute
+      height 35px
+      width 35px
+      left 90px
+.select_type
+  .status_list
+    max-height 300px
+    overflow-y auto
+.swipers-enter-active, .swipers-leave-active
+  transition all 0.3s ease-out
+.swipers-enter
+  transform translateX(180px)
+  opacity 0
+.swipers-leave-active
+  transform translateX(180px)
+  opacity 0
+.noData_icon
+  padding-top 60px
+  i
+    width 150px
+    height 150px
+    margin 0px auto 0
+    display block
+    svg
+      fill #ddd
+  p
+    text-align center
+    font-size 20px
+    color #ddd
+    font-weight 600

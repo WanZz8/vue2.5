@@ -1,0 +1,53 @@
+.list-wrapper
+  position relative
+  overflow hidden
+  background #fff
+  .scroll-content
+    position relative
+    z-index 1
+    height 100%
+  .list-content
+    position relative
+    z-index 10
+    background #fff
+    .list-item
+      height 60px
+      line-height 60px
+      font-size 18px
+      padding-left 20px
+      border-bottom 1px solid #e5e5e5
+.pulldown-wrapper
+  position absolute
+  width 100%
+  left 0
+  display flex
+  justify-content center
+  align-items center
+  transition all .5s linear
+.pullup-wrapper
+  width 100%
+  display flex
+  justify-content center
+  align-items center
+  padding 4px 0 32px
+.mf-loading-container
+  img
+    width 20px
+    height 20px
+    display block
+.loading_icon
+  width 20px
+  height 20px
+  fill #ccc
+  position absolute
+  left 50%
+  margin-left -40px
+  top 5px
+  .rotateLeft
+    transition all 0.2s ease
+    transform rotate(0deg)
+  .rotateRight
+    transition all 0.2s ease
+    transform rotate(-180deg)
+.pulltxt
+  line-height 35px

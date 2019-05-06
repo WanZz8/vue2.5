@@ -1,0 +1,102 @@
+.user_body
+  height 100%
+  .login_view
+    margin 40px auto 0
+    width 330px
+    padding-top 20px
+  .user_header
+    width 100%
+    text-align center
+    margin-bottom 25px
+    .user_h_img
+      display inline-block
+      margin-top 40px
+      height 95px
+    .register_title
+      font-size 20px
+      color #4a4a4a
+      padding 10px
+  .username, .password, .submit_login
+    margin-bottom 10px
+    position relative
+    .icons
+      width 18px
+      height 18px
+      display block
+      position absolute
+      top 50%
+      margin-top -10px
+      &.icon_User, &.icon_Pwd
+        left 18px
+        top 50%
+      &.icon_eye
+        width 18px
+        height 18px
+        left 50%
+        margin-left -15px
+        color #999
+    label
+      display block
+      font-size 16px
+    input
+      height 44px
+      border none
+      outline none
+      font-size 14px
+      border-bottom 1px solid #eee
+    input[name='user'], input[name='pwd']
+      padding 0 50px 0 45px
+      width 235px
+      color #666
+    input[name='logins']
+      width 100%
+      height 55px
+      color #fff
+      border none
+      border-radius 50px
+      font-size 15px
+  .forget_Pdw
+    text-align right
+    a
+      text-align right
+      margin 14px 0px 33px 0
+      display inline-block
+      color #9B9B9B
+  .eyeIcon
+    width 50px
+    height 50px
+    position absolute
+    right 0
+    top 50%
+    margin-top -25px
+.rPassword
+  float left
+  margin-top 5px
+  .select-tag-input + label
+    border none
+    box-shadow 0 0 1px #333
+    padding 10px
+    border-radius 3px
+    display inline-block
+    position relative
+    margin 0 6px 0 10px
+    margin-top 9px
+    float left
+  span
+    display inline-block
+    line-height 40px
+    color #999
+  .select-tag-input:checked + label
+    /* border: 1px solid #92A1AC; */
+    border none
+  .select-tag-input:checked + label:after
+    content '\02713'
+    position absolute
+    top -2px
+    left 0px
+    color #fff
+    width 100%
+    text-align center
+    font-size 16px
+    font-weight bold
+    vertical-align text-top

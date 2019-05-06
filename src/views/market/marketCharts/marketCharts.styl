@@ -1,0 +1,177 @@
+garyColor = #ccc
+.home_center
+  position relative
+  height 100%
+  div
+    height 100%
+  .header_title_market
+    margin 0 40px
+    h1
+      height 20px
+      line-height 22px
+      font-size 16px
+      color #ffffff
+      font-weight normal
+      float left
+      margin-top 6px
+    span
+      width 40px
+      height 18px
+      margin-left 5px
+      color #ffffff
+      line-height 20px
+      text-align center
+      font-size 12px
+      float left
+      border-radius 3px
+      margin-top 6px
+  p
+    position absolute
+    bottom 2px
+    left 45%
+    height 20px
+    font-size 12px
+    line-height 20px
+    color #fff
+    margin-left -25px
+.market_pic_view
+  .buy_list
+    position relative
+    height calc(100% - 15px)
+    overflow-y scroll
+    overflow-x hidden
+    .profitAndLoss
+      height 71px
+      margin 8px auto 0
+      background #f8f8f8
+      display flex
+      display -webkit-box
+      display -moz-box
+      display -ms-flexbox
+      display -webkit-flex
+      .buy_list_left
+        flex 0 0 60%
+        box-flex 0 0 60%
+        -webkit-box-flex 0 0 60%
+        -moz-box-flex 0 0 60%
+        -webkit-flex 0 0 60%
+        width 60%
+        font-size 16px
+        p
+          display inline-block
+          margin 10px 14px 5px
+          b
+            font-size 13px
+            text-align center
+            font-weight normal
+        i
+          display block
+          text-indent 16px
+      .buy_list_right
+        flex 0 0 40%
+        box-flex 0 0 40%
+        -webkit-box-flex 0 0 40%
+        -moz-box-flex 0 0 40%
+        -webkit-flex 0 0 40%
+        width 40%
+        span
+          width 108px
+          display block
+          border-radius 50px
+          color #ffffff
+          text-align center
+          padding 10px 0
+          justify-content center
+          -webkit-justify-content center
+          -moz-justify-content center
+          -ms-justify-content center
+          -o-justify-content center
+          flex-direction column
+          -webkit-flex-direction column
+          -moz-flex-direction column
+          -ms-flex-direction column
+          -o-flex-direction column
+          align-items center
+          margin 15px auto 0 auto
+.stock-line
+  // background #fff
+  position relative
+  z-index 99
+  .nav
+    clear both
+    margin 6px 0 3px
+    display flex
+    display -webkit-box
+    display -moz-box
+    display -ms-flexbox
+    display -webkit-flex
+    justify-content space-around
+    -webkit-justify-content space-around
+    -moz-justify-content space-around
+    -ms-justify-content space-around
+    -o-justify-content space-around
+    li
+      font-size 14px
+      color #ccc
+      padding 0 6px
+      text-align center
+      height 29px
+      line-height 32px
+      display inline-block
+      border solid 1px #DFDFDF
+      color #777
+      border-radius 4px
+      .dianshiji
+        width 29px
+        height 29px
+        padding 0 6px
+        box-sizing border-box
+        display inline-block
+.gary_theme
+  .profitAndLoss
+    background #222222
+    .buy_list_left
+      span
+        color garyColor
+  .stock-line
+    li
+      color #999
+    li.active
+      border solid 1px #666
+      color #666
+  .dunamicCost
+    .f_name, .f_timer, .dynamicNumber .money_number div.moneys.money_left h2, .dynamicNumber .money_number div.moneys.money_left p span, .dynamicNumber .money_number div.moneys.money_right span
+      color garyColor
+    .money_number
+      background #1c1c1c !important
+.checkoutChart
+  position relative
+  .charLoading
+    position absolute
+    top -5px
+    left 0
+    width 100%
+    height 100%
+    background rgba(200, 200, 200, 0.1)
+.top_ajax_fall_mask
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 50px
+  z-index 99999
+.loading_fall
+  p
+    text-align center
+    line-height 300px
+.bug_Page
+  transition 0.2s all ease-out
+  position absolute
+  top 0
+  left 100%
+  height 100%
+  width 100%
+  z-index 1000
+  overflow hidden
+.come
+  left 0

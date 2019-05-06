@@ -1,0 +1,195 @@
+.dynamicNumber
+  position absolute
+  bottom 0
+  left 0
+  width 100%
+  z-index 999
+  height 66px
+  .futures_name
+    display flex
+    padding 0 14px
+    background #fff
+    div
+      flex 0 0 50%
+      width 50%
+      margin-top 9px
+      color #4A4A4A
+      &.f_name
+        font-size 12px
+        text-align left
+        span
+          font-size 16px
+      &.f_timer
+        font-size 12px
+        line-height 24px
+        text-align right
+        span
+          color red
+  .money_number
+    background #F2F2F2
+    display flex
+    position relative
+    z-index 300
+    div.moneys
+      flex 0 0 50%
+      width 50%
+      &.money_left
+        h2
+          font-size 24px
+          float left
+          font-weight normal
+          padding-top 8px
+          margin 0 15px 0px 14px
+        p
+          float left
+          margin-top 8px
+          span
+            display block
+            font-size 12px
+      &.upDropPrice
+        h2
+          color #EA3826
+        span
+          color #EA3826
+      &.upDropSpeed
+        h2
+          color #7ED321
+        span
+          color #7ED321
+      &.money_right
+        text-align right
+        display flex
+        .sell_left
+          width 62%
+          flex 0 0 1
+          .buys, .sells
+            width 100%
+            height 8px
+            display block
+            margin-top 8px
+            margin-bottom 10px
+            i
+              display block
+              float right
+          .sells
+            i
+              height 100%
+              background #EA3826
+          .buys
+            i
+              height 100%
+              background #7ED321
+        .buy_right
+          width 38%
+          flex 0 0 1
+          margin-top 6px
+          span
+            font-size 12px
+            text-align center
+            color #4A4A4A
+            display block
+  .shop_onClick
+    height 66px
+    width 100%
+    display flex
+    display -webkit-box
+    display -moz-box
+    display -ms-flexbox
+    display -webkit-flex
+    color #ffffff
+    text-align center
+    position relative
+    z-index 300
+    .buyButton
+      flex 0 0 50%
+      box-flex 0 0 50%
+      -webkit-box-flex 0 0 50%
+      -moz-box-flex 0 0 50%
+      -webkit-flex 0 0 50%
+      width 50%
+      padding-top 15px
+      line-height 18px
+      p
+        position relative
+        i
+          width 13px
+          height 13px
+          display inline-block
+          position absolute
+          margin-left -30px
+          top 1px
+        .down_arrow_node
+          left 50%
+          transform rotate(180deg)
+        .up_arrow_node
+          left 50%
+    .buy_many
+      background #EA3826
+    .sell_null
+      background #7ED321
+    .middle_radius
+      width 66px
+      height 66px
+      background #fff
+      position absolute
+      left 50%
+      margin-left -33px
+      z-index 9
+      span
+        width 55px
+        height 55px
+        display block
+        background #6B89FE
+        margin 6px auto 0
+        position relative
+        i
+          width 34px
+          height 34px
+          display block
+          left 50%
+          position absolute
+          top 50%
+          margin-top -17px
+          margin-left -17px
+          transition all 0.2s ease
+      &.radius_btn
+        font-size 12px
+        line-height 55px
+        text-indent 12px
+        i
+          width 16px
+          height 16px
+          left 1px
+          top 20px
+          margin-left 0
+          margin-top 0
+  .shop_Rest
+    background #677382
+    height 66px
+    width 100%
+    line-height 66px
+    text-align center
+    font-size 14px
+    p
+      color #fff
+  .shop_Rest, .shop_Abnormal
+    height 66px
+    width 100%
+    line-height 66px
+    text-align center
+    font-size 14px
+    p
+      color #fff
+  .shop_Rest
+    background #677382
+  .shop_Abnormal
+    background #ea3826
+.buy_mask_bottom
+  width 100%
+  height 100%
+  position absolute
+  bottom 0
+  left 0
+  z-index 99999
+.dunamicCost
+  z-index 999

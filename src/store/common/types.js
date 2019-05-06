@@ -1,0 +1,9 @@
+export const CHANGETHEME = 'CHANGETHEME' // 颜色
+export const CURRENT = 'CURRENT'
+export const GETIMGCODE = 'GETIMGCODE' // 图形验证码
+export const GETPHCODE = 'GETPHCODE' // 手机验证码
+export const SHOWLOADING = 'SHOWLOADING'
+export const HIDELOADING = 'HIDELOADING'
+export const GETSERVICE = 'GETSERVICE' // 客服链接
+export const GETNOTICE = 'GETNOTICE' // 公告
+export const GETPUBLICKEY = 'GETPUBLICKEY' // 取公钥

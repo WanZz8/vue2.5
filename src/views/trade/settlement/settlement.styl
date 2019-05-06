@@ -1,0 +1,97 @@
+.settlement_detail
+  margin-top 6px
+  .main-body
+    overflow scroll
+    width 343px
+    margin 0 auto
+    .settlement_list
+      width 320px
+      margin 6px auto 6px
+      position relative
+      //height 44px
+      border-radius 5px
+      box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.06), 0 -2px 4px 0 rgba(0, 0, 0, 0.07)
+      padding 15px 9px
+      .status
+        height 10px
+        width 100%
+        margin-top 10px
+        p
+          font-size 0.32rem
+          color #9b9b9b
+      li
+        display flex
+        p
+          font-size 14px
+          color #4a4a4a
+          flex 0 0 40%
+          &.buy_num
+            color #FF5E4D
+            text-align right
+            display block
+          &.buy_name
+            flex 0 0 60%
+            width 60%
+          &.buy_bottom_left
+            flex 0 0 60%
+            width 60%
+            font-size 12px
+            color #9B9B9B
+            line-height 36px
+          &.buy_bottom_right
+            font-size 14px
+            color #EA3826
+            line-height 38px
+            span
+              font-size 12px
+              color #C1BFC2
+              padding-left 3px
+  .redio_settlement_time
+    display flex
+    background #f8f8f8
+    height 44px
+    padding 0 40px
+    .radios
+      margin-left 5px
+      padding 10 0
+      margin-top 12px
+      &.radios1
+        flex 0 0 25.3%
+        width 25.3%
+      &.radios2
+        flex 0 0 37.3%
+        width 37.3%
+        padding 0 2px 0 10px
+      &.radios3
+        flex 0 0 37.3%
+        width 37.3%
+      label
+        font-size 14px
+        color #4A4A4A
+      .box
+        display inline-block
+        position relative
+        border-radius 50%
+        input
+          position absolute
+          top 0
+          left 0
+          width 100%
+          height 100%
+          z-index 100
+          background #ccc
+          border-radius 50%
+          outline none
+          top 3px
+        span
+          display block
+          border-radius 50%
+          position absolute
+          top 50%
+          left 50%
+          background #fff
+          z-index 999
+        input[type='radio'] + span
+          display none
+        input[type='radio']:checked + span
+          display block
